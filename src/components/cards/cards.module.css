@@ -4,12 +4,34 @@
 .card {
     margin: 0 2% !important;
 }
+.textRed {
+    color: red;
+    font-weight: 700;
+}
+.textGreen {
+    color: green;
+    font-weight: 700;
+}
+.textBlue {
+    color: blue;
+    font-weight: 700;
+}
+
 .infected {
+    border: 0.5px solid rgba(0, 0, 255, 0.5);
     border-bottom: 10px solid rgba(0, 0, 255, 0.5);
 }
 .recovered {
+    border: 1px solid rgba(0, 255, 0, 0.5);
     border-bottom: 10px solid rgba(0, 255, 0, 0.5);
 }
 .deaths {
+    border: 1px solid rgba(255, 0, 0, 0.5);
     border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+}
+
+@media (max-width: 770px) {
+    .card {
+        margin: 2.5% 0 !important;
+    }
 }

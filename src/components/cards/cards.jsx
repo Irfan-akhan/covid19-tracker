@@ -8,7 +8,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
     if (!confirmed) return "loading...!";
     return (
         <div className={styles.container}>
-            <Grid container spacing={5} justify="center">
+            <Grid container spacing={3} justify="center">
                 <Grid
                     item
                     component={Card}
@@ -17,8 +17,8 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                     className={cx(styles.card, styles.infected)}
                 >
                     <CardContent>
-                        <Typography color="textSecondary" gutterBottom>
-                            Infected
+                        <Typography className={styles.textBlue} gutterBottom>
+                            INFECTED
                         </Typography>
                         <Typography variant="h5">
                             <CountUp
@@ -45,7 +45,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                     className={cx(styles.card, styles.recovered)}
                 >
                     <CardContent>
-                        <Typography color="textSecondary" gutterBottom>
+                        <Typography className={styles.textGreen} gutterBottom>
                             RECOVERED
                         </Typography>
                         <Typography variant="h5">
@@ -73,7 +73,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                     className={cx(styles.card, styles.deaths)}
                 >
                     <CardContent>
-                        <Typography color="textSecondary" gutterBottom>
+                        <Typography className={styles.textRed} gutterBottom>
                             DEATHS
                         </Typography>
                         <Typography variant="h5">
