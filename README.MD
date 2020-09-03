@@ -21,8 +21,8 @@ npm run start
 Enjoy :)
 
 # Built With.
-* NODE.JS, 
-* REACT.JS, 
-* AXIOS, 
-* METAI API,
-* CHARTS>JS 
+* Nodejs, 
+* Reactjs, 
+* Axios, 
+* Metai API,
+* Chartsjs 
