@@ -20,9 +20,9 @@ npm run start
 4. Explore
 Enjoy :)
 
-# Built With.
-* Nodejs, 
-* Reactjs, 
-* Axios, 
+# Built With
+* Nodejs 
+* Reactjs 
+* Axios
 * Metai API,
-* Chartsjs 
+* Chartsjs
