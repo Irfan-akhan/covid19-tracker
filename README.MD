@@ -2,7 +2,6 @@
 
 A simple covid-19 tracker website created for learning purposes, that shows total number of Deaths,Confirmed and Recovered cases of Covid-19 worldwide.It uses METAI API to get the data related to the pandemic.
 
-[Live site](https://irfan-akhan.github.io/covid19-tracker)
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
