@@ -9,8 +9,8 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 What things you need to install the software and how to install them
 
-node
-'npm install @latest -g'
+1. node
+2. 'npm install @latest -g'
 ### Installing
 1. Clone the repo
 git clone https://github.com/Irfan-akhan/covid19-tracker.git
